@@ -6,7 +6,7 @@
 	- Please install the OS Gem
 	- `gem install OS` or `sudo gem install OS`
 
-## Global (_global)
+## Global (\_global)
 	- Contains the global methods and classes for all migrations.
 	- ***This is always needed for all migrations.***
 
@@ -21,3 +21,4 @@ Choose the appropriate package depending on the type of migration you expect to 
 3. `migrate_from_csv.rb`
 	- Used to perform a migration from a set of source files, rearchitecting the files during migration using a migration map (CSV format). 
 
+Once you have chosen the appropriate skeleton package, you will need to adjust the configuration with the proper variables, set your templates to match the OU Campus PCF output required for your implementation, and target your content using XPath. The script will output a file package that can then be zipped and uploaded into OU Campus for immediate use. 
